@@ -23,13 +23,13 @@ body{
 
 .banner .slider{
     position: absolute;
-    width: 200px;
-    height: 250px;
-    top: 10%;
-    left: calc(50% - 100px);
+    width: 150px;
+    height: 180px;
+    top: 20%;
+    left: calc(50% - 75px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    animation: autoRun 20s linear infinite;
+    animation: autoRun 30s linear infinite;
     z-index: 2;
 }
 
@@ -46,7 +46,7 @@ body{
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) *1deg))
-        translateZ(550px);
+        translateZ(450px);
 }
 
 .banner .slider .item img{
@@ -99,3 +99,4 @@ body{
     background-position: top center;
     z-index: 1;
 }
+
